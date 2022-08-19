@@ -171,7 +171,7 @@
       // await injection point
     }
     if (startingSize !== size) {
-      console.log('textFit font changed size: ', size + settings.fontUnit)
+      //console.log('textFit font changed size: ', size + settings.fontUnit)
     }
     // found, updating font if differs:
     if( innerSpan.style.fontSize != size + settings.fontUnit ) innerSpan.style.fontSize = size + settings.fontUnit;
